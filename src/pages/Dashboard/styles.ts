@@ -56,8 +56,16 @@ export const Profile = styled.div`
       color: #f4ede8;
     }
 
-    strong {
+    a {
+      text-decoration: none;
       color: #48c9b0;
+
+      &:hover {
+        opacity 0.8;
+      }
+    }
+
+    strong {
       font-size: 1.1em;
     }
   }
